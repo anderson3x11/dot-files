@@ -4,7 +4,7 @@ return {
     event = "VeryLazy",
     dependencies = {
       "MunifTanjim/nui.nvim",
-      "rcarriga/nvim-notify",  -- pour les notifications flottantes
+      "rcarriga/nvim-notify",  
     },
     opts = {
       lsp = {
@@ -14,9 +14,9 @@ return {
         },
       },
       presets = {
-        command_palette = true,       -- cmdline centrée comme sur ta screenshot
-        long_message_to_split = true, -- les longs messages dans un split
-        lsp_doc_border = true,        -- bordure sur la doc LSP
+        command_palette = true,
+        long_message_to_split = true,
+        lsp_doc_border = true,
       },
     },
   }

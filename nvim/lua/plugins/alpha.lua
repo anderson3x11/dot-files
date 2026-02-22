@@ -7,7 +7,6 @@ return {
       local alpha = require('alpha')
       local dashboard = require('alpha.themes.dashboard')
 
-      -- ton ASCII art
       dashboard.section.header.val = {
         "                                                     ",
         "  ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗",
@@ -19,7 +18,6 @@ return {
         "                                                     ",
       }
 
-      -- les boutons
       dashboard.section.buttons.val = {
         dashboard.button("n", " > New File",        ":ene <BAR> startinsert<CR>"),
         dashboard.button("f", "󰈞 > Find File",       ":Telescope find_files<CR>"),
