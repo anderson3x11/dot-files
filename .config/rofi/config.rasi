@@ -1,6 +1,6 @@
 entry {
     placeholder: "";
-    text-color: #dddddd;
+    text-color: #ebdbb2;
     padding: 8px 0 8px 8px;
 }
 
@@ -17,14 +17,14 @@ inputbar {
 
 * {
     separatorcolor: transparent;
-    selected-normal-background: rgba(255,255,255, 5%);
-    normal-background: rgba(255,255,255, 0%);
-    alternate-normal-background: rgba(255,255,255, 0%);
+    selected-normal-background: rgba(168,153,132, 10%);
+    normal-background: rgba(40,40,40, 0%);
+    alternate-normal-background: rgba(40,40,40, 0%);
 }
 
 mainbox {
     border: 2px;
-    border-color: rgba(255,255,255, 20%);
+    border-color: rgba(168,153,132, 20%);
     border-radius: 10px;
     padding: 10px;
 }
@@ -32,12 +32,11 @@ mainbox {
 window {
     border-radius: 11px;
     border: 1px solid;
-    border-color: #000000;
-    background-color: rgba(38,43,52,85%);
+    border-color: #1d2021;
+    background-color: rgba(40,40,40, 90%);
     padding: 0px;
     width: 30%;
 }
-
 
 listview {
     lines: 10;
@@ -51,12 +50,11 @@ element {
 }
 
 element-text {
-    text-color: #e1e1e1;
+    text-color: #ebdbb2;
 }
 
 #scrollbar {
-    handle-color: #3a3f4a;
-    handle-width: 4px ;
+    handle-color: #504945;
+    handle-width: 4px;
     padding: 0;
 }
-
